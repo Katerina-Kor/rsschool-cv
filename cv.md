@@ -26,7 +26,11 @@ I know that I can become an excellent JavaScript/Frontend Developer, because I h
 - Figma Basics
 
 ### CODE EXAMPLE
-
+```
+function hero(bullets, dragons){
+  return (dragons * 2) <= bullets ? true : false;
+}
+```
 
 ### EDUCATION AND COURSES
 
