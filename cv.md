@@ -1,6 +1,7 @@
 # KATSIARYNA KARABEIKA
 *JUNIOR JAVA-SCRIPT/FRONTEND DEVELOPER*
 
+***
 ### CONTACTS
 
 **Location:** Batumi, Georgia\
@@ -10,6 +11,7 @@
 **GitHub:** [Katerina-Kor](https://github.com/Katerina-Kor)\
 **CodePen:** [Katerina Korobeiko](https://codepen.io/KatsiarynaKarab)
 
+***
 ### ABOUT ME
 
 Worked in a public non-governmental organization that provides legal assistance to refugees and stateless persons as the legal consultant (during 2 years) and later as Protection Monitoring Coordinator (3,5 years).
@@ -18,6 +20,7 @@ In April 2022 I had to quit my job and leave my home country. So I received extr
 
 I know that I can become an excellent JavaScript/Frontend Developer, because I have high ability for self-education and I know my goal.
 
+***
 ### SKILLS
 
 - HTML and CSS Basics
@@ -25,6 +28,7 @@ I know that I can become an excellent JavaScript/Frontend Developer, because I h
 - Git/GitHub Basics
 - Figma Basics
 
+***
 ### CODE EXAMPLE
 ```
 function hero(bullets, dragons){
@@ -32,6 +36,7 @@ function hero(bullets, dragons){
 }
 ```
 
+***
 ### EDUCATION AND COURSES
 
 - **Yanka Kupala State University of Grodno**
@@ -47,6 +52,7 @@ function hero(bullets, dragons){
 - **RS School course:**
     - [JavaScript/Front-end. Stage 0](https://wearecommunity.io/events/js-stage0-rs-2022q4) (in process)
 
+***
 ### LANGUAGES
 
 **Russian** - Native\
