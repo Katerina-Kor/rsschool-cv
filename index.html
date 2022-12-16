@@ -69,7 +69,7 @@
                     <pre class="pre">
                         <code class="code">
  function showPrime(n) {
-    for (let i = 2; i < n; i++) {
+    for (let i = 2; i &lt; n; i++) {
         if (!isPrime(i)) continue;
 
         alert(i);
@@ -77,7 +77,7 @@
 }
 
 function isPrime(n) {
-    for (let i = 2; i <= n / 2; i++) {
+    for (let i = 2; i &lt;= n / 2; i++) {
         if (n % i === 0) return false;
     }
     return true;
@@ -96,26 +96,30 @@ function isPrime(n) {
                 <section class="section education-section" id="education&courses">
                     <h3 class="section-title">Education & courses</h3>
                     <ul class="list">
-                        <li class="item"><span class="bold">Yanka Kupala State University of Grodno</span></li>
+                        <li class="item"><span class="bold">Yanka Kupala State University of Grodno</span>
                             <ul class="list">
                                 <li class="item">Faculty of Law</li>
                             </ul>
-                        <li class="item"><span class="bold">Hexlet courses:</span></li>
+                        </li>
+                        <li class="item"><span class="bold">Hexlet courses:</span>
                             <ul class="list">
                                 <li class="item"><a href="https://ru.hexlet.io/courses/js-basics" class="link">JavaScript Basics</a> (completed)</li>
                                 <li class="item"><a href="https://ru.hexlet.io/courses/layout-designer-basics" class="link">Basics of modern layout</a> (completed)</li>
                                 <li class="item"><a href="https://ru.hexlet.io/courses/intro_to_git" class="link">Introduction to Git</a> (completed)</li>
                             </ul>
-                        <li class="item"><span class="bold">CodeBasics courses:</span></li>
+                        </li>
+                        <li class="item"><span class="bold">CodeBasics courses:</span>
                             <ul class="list">
                                 <li class="item"><a href="https://code-basics.com/ru/languages/html" class="link">HTML</a> (completed)</li>
                                 <li class="item"><a href="https://code-basics.com/ru/languages/css" class="link">CSS</a> (completed)</li>
                                 <li class="item"><a href="https://code-basics.com/ru/languages/javascript" class="link">JavaScript</a> (completed)</li>
                             </ul>
-                        <li class="item"><span class="bold">RS School course:</span></li>
+                        </li>
+                        <li class="item"><span class="bold">RS School course:</span>
                             <ul class="list">
                                 <li class="item"><a href="https://wearecommunity.io/events/js-stage0-rs-2022q4" class="link">JavaScript/Front-end. Stage 0</a> (in process)</li>
                             </ul>
+                        </li>
                     </ul>
                 </section>
             </div>
