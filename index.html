@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Karabeika CV</title>
+
+        <link rel="stylesheet" href="./style.css">
+        <link rel="icon" href="assets/img/favicon.ico">
+
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500;700&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <header class="header">
+            <div class="container">
+                <nav class="nav">
+                    <ul class="nav-list">
+                        <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
+                        <li class="nav-item"><a href="#about-me" class="nav-link">About me</a></li>
+                        <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+                        <li class="nav-item"><a href="#code-example" class="nav-link">Code example</a></li>
+                        <li class="nav-item"><a href="#education&courses" class="nav-link">Education & courses</a></li>
+                        <li class="nav-item"><a href="#languages" class="nav-link">Languages</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <main class="main">
+            <div class="container main-container">
+                <section class="section section-profile" id="profile">
+                    <div class="section-profile-item">
+                        <img src="assets/img/avatar.jpg" alt="avatar" class="section-profile-avatar">
+                    </div>
+                    <div class="section-profile-item">
+                        <h1 class="section-title main-title">Katsiaryna Karabeika</h1>
+                        <h3 class="section-title section-profile-subtitle"><span class="italic">Junior JavaScript/Frontend Developer</span></h3>
+                    </div>
+                </section>
+                <section class="section" id="contacts">
+                    <h2 class="section-title">Contacts</h2>
+                    <ul class="list">
+                        <li class="item"><span class="bold">Location:</span> Batumi, Georgia</li>
+                        <li class="item"><span class="bold">Phone:</span> +375 29 821-51-47</li>
+                        <li class="item"><span class="bold">E-mail:</span> katerina.korobeiko@gmail.com</li>
+                        <li class="item"><span class="bold">Telegram:</span> @KatsiarynaKarabeika</li>
+                        <li class="item"><span class="bold">GitHub:</span><a href="https://github.com/Katerina-Kor" class="link"> Katerina-Kor</a></li>
+                        <li class="item"><span class="bold">CodePen:</span><a href="https://codepen.io/KatsiarynaKarab" class="link"> Katerina Korobeiko</a></li>
+                    </ul>
+                </section>
+                <section class="section" id="about-me">
+                    <h2 class="section-title">About me</h2>
+                    <p>Worked in a public non-governmental organization that provides legal assistance to refugees and stateless persons as the legal consultant (during 2 years) and later as Protection Monitoring Coordinator (3,5 years).
+                        In April 2022 I had to quit my job and leave my home country. So I received extra free time and I decided to learn JavaScript and Frontend Development.
+                        I know that I can become an excellent JavaScript/Frontend Developer, because I have high ability for self-education and I know my goal.</p>
+                </section>
+                <section class="section" id="skills">
+                    <h2 class="section-title">Skills</h2>
+                    <ul class="list">
+                        <li class="item">HTML and CSS Basics</li>
+                        <li class="item">JavaScript Basics</li>
+                        <li class="item">Git/GitHub Basics</li>
+                        <li class="item">Figma Basics</li>
+                    </ul>
+                </section>
+                <section class="section" id="code-example">
+                    <h2 class="section-title">Code example</h2>
+                    <pre class="pre">
+                        <code class="code">
+ function showPrime(n) {
+    for (let i = 2; i &lt; n; i++) {
+        if (!isPrime(i)) continue;
+
+        alert(i);
+    }
+}
+
+function isPrime(n) {
+    for (let i = 2; i &lt;= n / 2; i++) {
+        if (n % i === 0) return false;
+    }
+    return true;
+}
+                        </code>
+                    </pre>
+                </section>
+                <section class="section languages-section" id="languages">
+                    <h2 class="section-title">Languages</h2>
+                    <ul class="list">
+                        <li class="item"><span class="bold">Russian</span> - Native</li>
+                        <li class="item"><span class="bold">English</span> - Intermediate</li>
+                        <li class="item"><span class="bold">French</span> - Basic</li>
+                    </ul>
+                </section>
+                <section class="section education-section" id="education&courses">
+                    <h2 class="section-title">Education & courses</h2>
+                    <ul class="list">
+                        <li class="item"><span class="bold">Yanka Kupala State University of Grodno</span>
+                            <ul class="list">
+                                <li class="item">Faculty of Law</li>
+                            </ul>
+                        </li>
+                        <li class="item"><span class="bold">Hexlet courses:</span>
+                            <ul class="list">
+                                <li class="item"><a href="https://ru.hexlet.io/courses/js-basics" class="link">JavaScript Basics</a> (completed)</li>
+                                <li class="item"><a href="https://ru.hexlet.io/courses/layout-designer-basics" class="link">Basics of modern layout</a> (completed)</li>
+                                <li class="item"><a href="https://ru.hexlet.io/courses/intro_to_git" class="link">Introduction to Git</a> (completed)</li>
+                            </ul>
+                        </li>
+                        <li class="item"><span class="bold">CodeBasics courses:</span>
+                            <ul class="list">
+                                <li class="item"><a href="https://code-basics.com/ru/languages/html" class="link">HTML</a> (completed)</li>
+                                <li class="item"><a href="https://code-basics.com/ru/languages/css" class="link">CSS</a> (completed)</li>
+                                <li class="item"><a href="https://code-basics.com/ru/languages/javascript" class="link">JavaScript</a> (completed)</li>
+                            </ul>
+                        </li>
+                        <li class="item"><span class="bold">RS School course:</span>
+                            <ul class="list">
+                                <li class="item"><a href="https://wearecommunity.io/events/js-stage0-rs-2022q4" class="link">JavaScript/Front-end. Stage 0</a> (in process)</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </section>
+            </div>
+        </main>
+        <footer class="footer">
+            <div class="container">
+                <ul class="list footer-list">
+                    <li class="item footer-item"><a href="https://github.com/Katerina-Kor" class="link footer-link">
+                        <img src="./assets/svg/github-mark.svg" alt="GitHub Mark" class="footer-img">
+                    </a></li>
+                    <li class="item footer-item"><a href="https://rs.school/js/" class="link footer-link">
+                        <img src="./assets/svg/rs_school_logo.svg" alt="Rsschool Logo" class="footer-img">
+                    </a></li>
+                    <li class="item footer-item">Created in 2022</li>
+                </ul>
+            </div>
+        </footer>
+    </body>
+</html>
