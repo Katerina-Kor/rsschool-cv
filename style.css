@@ -133,6 +133,23 @@ body {
     margin: 0;
 }
 
+.footer-list {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+}
+
+.footer-item {
+    padding: 0px 15px;
+    font-size: 14px;
+}
+
+.footer-img {
+    width: 45px;
+    height: 45px;
+}
+
 .bold {
     font-weight: 500;
   }
