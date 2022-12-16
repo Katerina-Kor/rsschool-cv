@@ -2,6 +2,154 @@
     box-sizing: border-box;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
     font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 1.5;
+    color: #323131;
+    background-color: rgb(233, 229, 222);
+}
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+    min-height: 50px;
+}
+
+.header {
+    background-color: #8e4d57;
+}
+
+.footer {
+    background-color: #8e4d57;
+}
+
+.nav-list {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    list-style: none;
+}
+
+.nav-link {
+    padding: 0 15px;
+    line-height: 20px;
+    color: goldenrod;
+    font-size: 18px;
+    font-weight: 300;
+    text-decoration: none;
+    transition: 1.5s;
+}
+
+.nav-link:hover {
+    color: #4d2323;
+    border-bottom: 1px solid;
+}
+
+.main-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.section {
+    width: calc(50% - 35px);
+    padding: 15px 10px 30px;
+    border-bottom: 1px solid #8e4d57;
+}
+
+.section-profile {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+    padding: 50px 30px;
+    border-bottom: 0;
+}
+
+.section-profile-item {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    width: 50%;
+}
+
+.section-profile-avatar {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 1px solid #8e4d57;
+}
+
+
+.section-title {
+    font-size: 20px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    color: #8e4d57;
+    text-align: center;
+}
+
+.main-title {
+    font-size: 32px;
+}
+
+.section-profile-subtitle {
+    font-size: 18px;
+    letter-spacing: 4px;
+}
+
+.languages-section, .education-section {
+    border-bottom: none;
+}
+
+.link {
+    text-decoration: none;
+    color: #5f2525;
+    transition: color 1.5s;
+  }
+
+.link:hover {
+    color: goldenrod;
+  }
+
+.pre {
+    padding: 0;
+    margin: 0;
+}
+
+.bold {
+    font-weight: 500;
+  }
+
+.italic {
+    font-style: italic;
+  }
+
+@media (max-width: 768px) {
+    .section {
+        width: 100%;
+    }
+
+    .section-profile-item {
+        width: 100%;
+    }
+    .languages-section {
+        border-bottom: 1px solid #8e4d57;
+    }
 }

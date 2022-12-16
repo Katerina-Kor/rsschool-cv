@@ -30,10 +30,12 @@
         <main class="main">
             <div class="container main-container">
                 <section class="section section-profile" id="profile">
-                    <img src="assets/img/avatar.jpg" alt="avatar" class="section-profile-avatar">
-                    <div class="section-profile-title">
-                        <h1 class="section-title">Katsiaryna Karabeika</h1>
-                        <p><span class="italic">Junior JavaScript/Frontend Developer</span></p>
+                    <div class="section-profile-item">
+                        <img src="assets/img/avatar.jpg" alt="avatar" class="section-profile-avatar">
+                    </div>
+                    <div class="section-profile-item">
+                        <h1 class="section-title main-title">Katsiaryna Karabeika</h1>
+                        <h4 class="section-title section-profile-subtitle"><span class="italic">Junior JavaScript/Frontend Developer</span></h4>
                     </div>
                 </section>
                 <section class="section" id="contacts">
@@ -66,13 +68,24 @@
                     <h3 class="section-title">Code example</h3>
                     <pre class="pre">
                         <code class="code">
-    function hero(bullets, dragons) {
-        return (dragons * 2) <= bullets ? true : false;
+ function showPrime(n) {
+    for (let i = 2; i < n; i++) {
+        if (!isPrime(i)) continue;
+
+        alert(i);
     }
+}
+
+function isPrime(n) {
+    for (let i = 2; i <= n / 2; i++) {
+        if (n % i === 0) return false;
+    }
+    return true;
+}
                         </code>
                     </pre>
                 </section>
-                <section class="section" id="languages">
+                <section class="section languages-section" id="languages">
                     <h3 class="section-title">Languages</h3>
                     <ul class="list">
                         <li class="item"><span class="bold">Russian</span> - Native</li>
@@ -80,7 +93,7 @@
                         <li class="item"><span class="bold">French</span> - Basic</li>
                     </ul>
                 </section>
-                <section class="section" id="education&courses">
+                <section class="section education-section" id="education&courses">
                     <h3 class="section-title">Education & courses</h3>
                     <ul class="list">
                         <li class="item"><span class="bold">Yanka Kupala State University of Grodno</span></li>
